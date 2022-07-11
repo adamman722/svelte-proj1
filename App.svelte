@@ -53,6 +53,7 @@
 <Header />
 <main>
   <form on:submit|preventDefault={addMeetup}>
+  <!--5.50 adding more components  -->
     <TextInput id="title" label="Title" value={title} on:input={(e) => (title = e.target.value) }/>
     <TextInput id="subtitle" label="SubTitle" value={title} on:input={(e) => title = e.target.value }/>
     <TextInput id="title" label="Title" value={title} on:input={(e) => title = e.target.value }/>
